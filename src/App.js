@@ -84,7 +84,7 @@ function App() {
               <p> + Add To Chrome</p>
             </div>
           </div>
-          <div css={spliter}></div>
+          <div css={spliter} />
         </div>
         <div css={container}>
           <div css={split}>
@@ -102,7 +102,7 @@ function App() {
               <img src={sunset} alt="sunset" />
             </div>
           </div>
-          <div css={spliterReverse}></div>
+          <div css={spliterReverse} />
         </div>
         <div css={container}>
           <div css={split}>
@@ -120,7 +120,7 @@ function App() {
               <p> + Add To Chrome</p>
             </div>
           </div>
-          <div css={spliter}></div>
+          <div css={spliter} />
         </div>
         <div css={container}>
           <div css={split}>
@@ -137,7 +137,7 @@ function App() {
               <img src={clock} alt="clock" />
             </div>
           </div>
-          <div css={spliterReverse}></div>
+          <div css={spliterReverse} />
         </div>
         <div css={container}>
           <div css={split}>
@@ -154,11 +154,11 @@ function App() {
               <p> + Add To Chrome</p>
             </div>
           </div>
-          <div css={spliterReverse}></div>
+          <div css={spliterReverse} />
           <div css={movieYoutube}>
             <YoutubeEmbed embedId="lS9XcEEek48" />
           </div>
-          <div css={spliter}></div>
+          <div css={spliter} />
         </div>
       </section>
     </div>
