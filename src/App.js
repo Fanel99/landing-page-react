@@ -12,6 +12,9 @@ import sunset from './images/sunset.png';
 import {
   button,
   container,
+  footer,
+  footerContainer,
+  footerEmail,
   heroBrowsing,
   movieYoutube,
   navigation,
@@ -161,6 +164,24 @@ function App() {
           <div css={spliter} />
         </div>
       </section>
+      <footer css={[container, footer]}>
+        <div css={footerContainer}>
+          <div>
+            <Logo />
+            <p>Made of stardust from Brazil and Canada.</p>
+          </div>
+          <div css={footerEmail}>
+            <div>
+              <h2>Be the first to know. No spam.</h2>
+              <p>
+                Join us and share our passion for the universe!. Stay in the
+                loop about new product updates, features and announcements.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div css={footerContainer}></div>
+      </footer>
     </div>
   );
 }
