@@ -200,20 +200,3 @@ export const movieYoutube = css`
   text-align: center;
   margin-top: 50px;
 `;
-
-export const footer = css`
-  background: #391f5b;
-  border: 1px solid #5c4678;
-  padding: 64px 32px;
-`;
-
-export const footerContainer = css`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-`;
-
-export const footerEmail = css`
-  width: 60%;
-  margin-left: 32px;
-`;
